@@ -4,17 +4,26 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flask = "*"
-colorama = "*"
-flask-sqlalchemy = "*"
-flask-wtf = "*"
-werkzeug = "*"
-flask-migrate = "*"
-flask-login = "*"
-email-validator = "*"
-gunicorn = "*"
-
-[dev-packages]
+flask = "==2.1.3"
+colorama = "==0.4.5"
+flask-sqlalchemy = "==2.5.1"
+flask-wtf = "==1.0.1"
+werkzeug = "==2.1.2"
+flask-migrate = "==3.1.0"
+flask-login = "==0.6.1"
+email-validator = "==1.2.1"
+gunicorn = "==20.1.0"
+alembic = "==1.8.1"
+click = "==8.1.3"
+dnspython = "==2.2.1"
+greenlet = "==1.1.2"
+idna = "==3.3"
+itsdangerous = "==2.1.2"
+jinja2 = "==3.1.2"
+mako = "==1.2.1"
+markupsafe = "==2.1.1"
+sqlalchemy = "==1.4.39"
+wtforms = "==3.0.1"
 
 [requires]
 python_version = "3"
